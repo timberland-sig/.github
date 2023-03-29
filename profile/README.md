@@ -4,6 +4,7 @@ This organization hosts the POC efforts for a [NVMe/TCP Boot-from-SAN](https://w
 
 Proof of Concept and Demonstrations:
 * [suse-linux-poc](https://github.com/timberland-sig/suse-linux-poc) - Build your own openSUSE VM Boot-From SAN Envrionment.
+* [rh-linux-poc](https://github.com/timberland-sig/rh-linux-poc) - Build your own Fedora VM Boot-From SAN Environment.
 
 Included repositories as part of this scope are:
 * edk2 – With the timberland_1.0_final branch, which provides pre-OS driver support (Networking/NvmeOfDxe) which works with OVMF.
