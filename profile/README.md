@@ -6,11 +6,14 @@ Proof of Concept and Demonstrations:
 * [suse-linux-poc](https://github.com/timberland-sig/suse-linux-poc) - Build your own openSUSE VM Boot-From SAN Envrionment.
 * [rh-linux-poc](https://github.com/timberland-sig/rh-linux-poc) - Build your own Fedora VM Boot-From SAN Environment.
 
+Presentations, Papers and Demos:
+* [SDC22](https://www.snia.org/educational-library/nvme-%E2%84%A2-boot-2022) - Storage Developers Conference 2022 presentation on NVMe-oF Boot
+* [OFA23 Conference](https://www.openfabrics.org/wp-content/uploads/2023-workshop/2023-workshop-presentations/day-2/203_PCayton.pdf), [OFA23 Video](https://youtu.be/_w5alJlR_E0) - Open Fabrics Alliance introduction to NVMe-oF Boot. 
+* [NVM Express Brighttalk Video - 2023](https://www.brighttalk.com/webcast/12367/572752) - Presentation on NVMe-oF booting 2023 hosted by NVMExpress
+
 Included repositories as part of this scope are:
 * edk2 – With the timberland_1.0_final branch, which provides pre-OS driver support (Networking/NvmeOfDxe) which works with OVMF.
 * spdk – Changes for edk2 support (as a submodule of edk2)
 * libnvme – Library support for ACPI NBFT decoding from Linux userspace
 * nvme-cli – Userspace command line to interact with and decode the ACPI NBFT
 * dracut - Changes to dracut, a common Linux initram executable, for consuming the ACPI NBFT using nvme-cli.
-
-Coming soon are instructions for setting up your Red Hat based POC environment too.
