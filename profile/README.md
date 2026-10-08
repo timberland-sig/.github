@@ -10,6 +10,7 @@ Presentations, Papers and Demos:
 * [SDC22](https://www.snia.org/educational-library/nvme-%E2%84%A2-boot-2022) - Storage Developers Conference 2022 presentation on NVMe-oF Boot
 * [OFA23 Conference](https://www.openfabrics.org/wp-content/uploads/2023-workshop/2023-workshop-presentations/day-2/203_PCayton.pdf), [OFA23 Video](https://youtu.be/_w5alJlR_E0) - Open Fabrics Alliance introduction to NVMe-oF Boot. 
 * [NVM Express Brighttalk Video - 2023](https://www.brighttalk.com/webcast/12367/572752) - Presentation on NVMe-oF booting 2023 hosted by NVMExpress
+* [SDC24 NVMe-oF Boot is Real] (https://www.snia.org/sniadeveloper/session/18404). - Presentation on NVMe-oF booting at SDC 2024 with Redfish management demo
 
 Included repositories as part of this scope are:
 * [edk2](https://github.com/timberland-sig/edk2) – With the timberland_1.0_final branch, which provides pre-OS driver support (Networking/NvmeOfDxe) which works with OVMF.
